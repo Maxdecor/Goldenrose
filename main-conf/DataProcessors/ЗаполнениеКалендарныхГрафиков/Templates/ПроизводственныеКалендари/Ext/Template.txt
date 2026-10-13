@@ -1,0 +1,3 @@
+﻿<Items Description="Производственные календари" Columns="Code,Description,Base">
+	<Item Code="UZ" Description="Республика Узбекистан" Base=""/>
+</Items>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.17">
+	<Item id="ff2b4861-6695-4c39-88ef-ba169257de5f">
+		<Name>УЗБЕКИСТАН</Name>
+		<Code>УТ-000860</Code>
+		<Description>УЗБЕКИСТАН</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="d94b426b-386a-416d-a141-e2e81090d8c6">
+				<Name>Andijon</Name>
+				<Code>УТ-000002</Code>
+				<Description>Andijon viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="c7b1c62d-f37c-4a6a-be23-66c971f3c7f1">
+				<Name>Buxoro</Name>
+				<Code>УТ-000003</Code>
+				<Description>Buxoro viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="033318c5-5021-4c39-a35b-73b8523a97d5">
+				<Name>Fargona</Name>
+				<Code>УТ-000004</Code>
+				<Description>Farg`ona viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="fff112b7-2795-4c4b-834d-5a27abed13a7">
+				<Name>Jizzax</Name>
+				<Code>УТ-000005</Code>
+				<Description>Jizzax viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="626170ba-75cb-4f24-aa2a-8c2eae945b08">
+				<Name>Namangan</Name>
+				<Code>УТ-000006</Code>
+				<Description>Namangan viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="a4a6eb54-3b01-4e2a-a633-b63dfc33c9cf">
+				<Name>Navoiy</Name>
+				<Code>УТ-000007</Code>
+				<Description>Navoiy viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="643703ec-3c31-4ee2-931e-d74aa3bca79f">
+				<Name>Qashqadaryo</Name>
+				<Code>УТ-000008</Code>
+				<Description>Qashqadaryo viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="0b6e3507-7dc1-477e-82f6-b3d39b30aa88">
+				<Name>Qoraqalpogiston</Name>
+				<Code>УТ-000014</Code>
+				<Description>Qoraqalpog`iston Respublikasi</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="9a0a14e2-a63d-4308-b589-45ad433c7ce5">
+				<Name>Samarqand</Name>
+				<Code>УТ-000009</Code>
+				<Description>Samarqand viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="83e030b9-5c89-4c06-9481-9356abf68b71">
+				<Name>Sirdaryo</Name>
+				<Code>УТ-000010</Code>
+				<Description>Sirdaryo viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="ecb5dda1-3427-4031-97ed-3000736192e3">
+				<Name>Surxondaryo</Name>
+				<Code>УТ-000011</Code>
+				<Description>Surxondaryo viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="bc49b521-bf29-4d1e-ac51-1bbc058393a2">
+				<Name>Toshkent</Name>
+				<Code>УТ-000001</Code>
+				<Description>Toshkent shahri</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="54c5fd86-625e-4b8e-a658-446bab3e7c1c">
+				<Name>ToshkentViloyati</Name>
+				<Code>УТ-000012</Code>
+				<Description>Toshkent viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="8c026393-3a7d-4a05-bb3c-c361f97297c7">
+				<Name>Xorazm</Name>
+				<Code>УТ-000013</Code>
+				<Description>Xorazm viloyati</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+			<Item id="ef5e18e5-7ef3-4982-b7f9-a05c01a93ebd">
+				<Name>Другие</Name>
+				<Code>УТ-000015</Code>
+				<Description>Другие территории</Description>
+				<IsFolder>true</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

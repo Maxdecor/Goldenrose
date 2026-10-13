@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="ПутьККомпонентеКриптографии" id="1">
+			<DataPath>НаборКонстант.ПутьККомпонентеКриптографии</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ListChoiceMode>true</ListChoiceMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>C:\Wefo\</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">Wefo</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="ПутьККомпонентеКриптографииКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПутьККомпонентеКриптографииРасширеннаяПодсказка" id="3">
+				<Title formatted="true">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>В целях оптимизации процесса документооборота 
+следует указать постоянный каталог для компоненты криптографии. 
+По умолчанию &lt;bgcolor #ccffcc&gt;"C:\Wefo\eimzoClient.jar"&lt;/&gt;.</v8:content>
+					</v8:item>
+				</Title>
+			</ExtendedTooltip>
+		</InputField>
+		<UsualGroup name="ГруппаОКомпонентеКриптографии" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>О компоненте криптографии</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа о компоненте криптографии</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаОКомпонентеКриптографииРасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<LabelDecoration name="ДекорацияНадписьОКомпоненте" id="6">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Компонента криптографии - это приложение позволяющее работать с E-Imzo из 1С.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uz</v8:lang>
+							<v8:content>Kriptografiya komponenti - 1C dan E-Imzo bilan ishlash imkonini beruvchi dasturdir.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>уз</v8:lang>
+							<v8:content>Kriptografiya komponenti-bu 1C dan E-Imzo bilan ishlashga imkon beruvchi dastur.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияНадписьОКомпонентеКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="ДекорацияНадписьОКомпонентеРасширеннаяПодсказка" id="8"/>
+				</LabelDecoration>
+				<LabelDecoration name="ДекорацияНадписьТребованияДляРаботыКомпоненты" id="9">
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Для работы компоненты криптографии следующие приложения должны быть установлены на ваш компьютер:
+&lt;img :8d6e5e9d-5642-48d8-90d7-782c82709f20:00000000-0000-0000-0000-000000000000/&gt; E-Imzo-v3.41
+&lt;img :0c54967b-20ed-4887-972f-3d394066421b:00000000-0000-0000-0000-000000000000/&gt; JDK 1.8 (Java SE Development Kit) или JRE 1.8 (Java SE Runtime Environment)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uz</v8:lang>
+							<v8:content>Kriptografiya komponentlari ishlashi uchun kompyuteringizga quyidagi ilovalar oʻrnatilgan boʻlishi kerak:</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>уз</v8:lang>
+							<v8:content>Ishlash uchun kriptografiya komponentlari kompyuteringizga quyidagi ilovalar o'rnatilishi kerak:</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияНадписьТребованияДляРаботыКомпонентыКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="ДекорацияНадписьТребованияДляРаботыКомпонентыРасширеннаяПодсказка" id="11"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НаборКонстант" id="1">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

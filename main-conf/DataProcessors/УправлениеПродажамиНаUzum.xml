@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<DataProcessor uuid="592424f6-75d9-42f7-a2bf-cb00f9cab4da">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.УправлениеПродажамиНаUzum" category="Object">
+				<xr:TypeId>d44cf78d-025b-4d9f-9794-a948437c9b12</xr:TypeId>
+				<xr:ValueId>2763fe7d-5158-4fd9-837d-bbcbe951aec3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.УправлениеПродажамиНаUzum" category="Manager">
+				<xr:TypeId>d144a0df-905e-40bc-96ef-e2109215d6e6</xr:TypeId>
+				<xr:ValueId>b180f245-ef20-4028-bd81-c2b4b58e01af</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УправлениеПродажамиНаUzum</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Управление продажами на Uzum</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.УправлениеПродажамиНаUzum.Form.ПубликацияТоваров</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>СписокПодключенийКСервису</Form>
+			<Form>ПодключениеКСервису</Form>
+			<Form>ТекущееСостояниеАвторизации</Form>
+			<Form>НастройкиИнтеграции</Form>
+			<Form>СопоставлениеКатегорий</Form>
+			<Form>ВыборКатегорииМаркетплейса</Form>
+			<Form>ВыборРеквизита1С</Form>
+			<Form>СопоставлениеЗначений</Form>
+			<Form>СопоставлениеТиповСертификатов</Form>
+			<Form>ВыборЗначенияМаркетплейса</Form>
+			<Form>ВыборСпискаЗначенийМаркетплейса</Form>
+			<Form>КарточкаСертификата</Form>
+			<Form>ПубликацияТоваров</Form>
+			<Form>НастройкаОтображенияОстатков</Form>
+			<Form>ИмпортДанныхТоваровСТорговойПлощадки</Form>
+			<Form>ИмпортДанныхНастройка</Form>
+			<Template>ПФ_MXL_КарточкаКатегории</Template>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

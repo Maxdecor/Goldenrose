@@ -1,0 +1,100 @@
+﻿<ValueTable xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ValueTable">
+
+	<column>
+		<Name xsi:type="xs:string">КодСубъектаРФ</Name>
+		<ValueType>
+			<Type>xs:decimal</Type>
+		</ValueType>
+	</column>
+	
+	<column>
+		<Name xsi:type="xs:string">Наименование</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>120</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+	</column>
+	
+	<column>
+		<Name xsi:type="xs:string">ТипОбъекта</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>10</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+	</column>
+	
+	<column>
+		<Name xsi:type="xs:string">ПолноеНаименование</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>200</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+	</column>
+	
+	<column>
+		<Name xsi:type="xs:string">ПочтовыйИндекс</Name>
+		<ValueType>
+			<Type>xs:decimal</Type>
+		</ValueType>
+	</column>
+	
+	<column>
+	<Name xsi:type="xs:string">ДиапазонПочтовыхИндексов</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>120</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+	</column>
+	
+	<column>
+		<Name xsi:type="xs:string">Идентификатор</Name>
+		<ValueType>
+			<Type>UUID</Type>
+		</ValueType>
+	</column>
+	
+	<column>
+	<Name xsi:type="xs:string">ОКТМО</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>8</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+	</column>
+
+
+	<index><column>КодСубъектаРФ</column></index>
+	<index><column>Наименование</column></index>
+	<index><column>Наименование</column><column>ТипОбъекта</column></index>
+	<index><column>Идентификатор</column></index>
+	<index><column>ОКТМО</column></index>
+
+	<row><Value>01</Value><Value>Ташкент</Value>                                 <Value>г</Value><Value>г. Ташкент</Value><Value>000000</Value><Value></Value><Value>0c5b2777-70a0-4932-980c-b4dc0d3f02b5</Value><Value></Value></row>
+	<row><Value>02</Value><Value>Андижанская</Value>                             <Value>обл</Value><Value>Андижанская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-5e31-4017-b422-4d9c01e9942c</Value><Value></Value></row>
+	<row><Value>03</Value><Value>Бухарская</Value>                               <Value>обл</Value><Value>Бухарская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-e25d-428c-95ad-46719c4ddb44</Value><Value></Value></row>
+	<row><Value>04</Value><Value>Ферганская</Value>                              <Value>обл</Value><Value>Ферганская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-7ce3-45e5-8b97-90ae16cb1249</Value><Value></Value></row>
+	<row><Value>05</Value><Value>Джизакская</Value>                              <Value>обл</Value><Value>Джизакская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-25cb-4561-af8e-7ee111b1cb73</Value><Value></Value></row>
+	<row><Value>06</Value><Value>Наманганская</Value>                            <Value>обл</Value><Value>Наманганская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-39ee-4ff9-bc91-fcc9ed451bb3</Value><Value></Value></row>
+	<row><Value>07</Value><Value>Навоийская</Value>                              <Value>обл</Value><Value>Навоийская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-8be0-4ea8-91fc-39d053aec1e2</Value><Value></Value></row>
+	<row><Value>08</Value><Value>Кашкадарьинская</Value>                         <Value>обл</Value><Value>Кашкадарьинская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-3fc8-4438-8e70-ec4f2321f2a7</Value><Value></Value></row>
+	<row><Value>09</Value><Value>Самаркандская</Value>                           <Value>обл</Value><Value>Самаркандская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-da2e-4a66-b542-473b8d221ab4</Value><Value></Value></row>
+	<row><Value>10</Value><Value>Сырдарьинская</Value>                           <Value>обл</Value><Value>Сырдарьинская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-bbd3-44d5-9302-5bfcc740f46e</Value><Value></Value></row>
+	<row><Value>11</Value><Value>Сурхандарьинская</Value>                        <Value>обл</Value><Value>Сурхандарьинская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-b2f5-454f-b9a9-1c9a678ee618</Value><Value></Value></row>
+	<row><Value>12</Value><Value>Ташкентская</Value>                             <Value>обл</Value><Value>Ташкентская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-4098-4467-af72-d4f702fed335</Value><Value></Value></row>
+	<row><Value>13</Value><Value>Хорезмская</Value>                              <Value>обл</Value><Value>Хорезмская область</Value><Value>000000</Value><Value></Value><Value>0c5b2777-724f-41b3-b6c6-bd3ec7ae3f30</Value><Value></Value></row>
+	<row><Value>14</Value><Value>Каракалпакстан</Value>                          <Value>Респ</Value><Value>Республика Каракалпакстан</Value><Value>000000</Value><Value></Value><Value>0c5b2777-1db6-4063-ace0-b3fe9ea3805f</Value><Value></Value></row>
+</ValueTable>

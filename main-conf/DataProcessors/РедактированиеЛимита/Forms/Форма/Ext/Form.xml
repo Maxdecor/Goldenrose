@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПрименитьИзменения" id="32">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ПрименитьИзменения</CommandName>
+				<ExtendedTooltip name="ФормаПрименитьИзмененияРасширеннаяПодсказка" id="33"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Месяц" id="36">
+			<DataPath>Объект.Месяц</DataPath>
+			<ContextMenu name="МесяцКонтекстноеМеню" id="37"/>
+			<ExtendedTooltip name="МесяцРасширеннаяПодсказка" id="38"/>
+		</InputField>
+		<InputField name="Контрагент" id="4">
+			<DataPath>Объект.Контрагент</DataPath>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="6"/>
+			<Events>
+				<Event name="OnChange">КонтрагентПриИзменении</Event>
+			</Events>
+		</InputField>
+		<CheckBoxField name="ЭтоНовыйКонтрагент" id="42">
+			<DataPath>Объект.ЭтоНовыйКонтрагент</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЭтоНовыйКонтрагентКонтекстноеМеню" id="43"/>
+			<ExtendedTooltip name="ЭтоНовыйКонтрагентРасширеннаяПодсказка" id="44"/>
+		</CheckBoxField>
+		<Table name="ТекущиеЛимиты" id="7">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ТекущиеЛимиты</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТекущиеЛимитыКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="ТекущиеЛимитыКоманднаяПанель" id="9">
+				<ChildItems>
+					<Button name="ТекущиеЛимитыПерезаполнить" id="34">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Перезаполнить</CommandName>
+						<ExtendedTooltip name="ТекущиеЛимитыПерезаполнитьРасширеннаяПодсказка" id="35"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ТекущиеЛимитыРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="ТекущиеЛимитыСтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>ТекущиеЛимиты</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТекущиеЛимитыСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТекущиеЛимитыСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТекущиеЛимитыСостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>ТекущиеЛимиты</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТекущиеЛимитыСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ТекущиеЛимитыСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТекущиеЛимитыУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>ТекущиеЛимиты</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТекущиеЛимитыУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ТекущиеЛимитыУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ТекущиеЛимитыНомерСтроки" id="20">
+					<DataPath>Объект.ТекущиеЛимиты.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТекущиеЛимитыНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТекущиеЛимитыНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="ТекущиеЛимитыПроект" id="23">
+					<DataPath>Объект.ТекущиеЛимиты.Проект</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТекущиеЛимитыПроектКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ТекущиеЛимитыПроектРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<CheckBoxField name="ТекущиеЛимитыРедактирован" id="29">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТекущиеЛимитыРедактированКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТекущиеЛимитыРедактированРасширеннаяПодсказка" id="31"/>
+				</CheckBoxField>
+				<CheckBoxField name="ТекущиеЛимитыЭтоНовыйКонтрагент" id="39">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТекущиеЛимитыЭтоНовыйКонтрагентКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="ТекущиеЛимитыЭтоНовыйКонтрагентРасширеннаяПодсказка" id="41"/>
+				</CheckBoxField>
+				<InputField name="ТекущиеЛимитыИсходныйЛимит" id="45">
+					<DataPath>Объект.ТекущиеЛимиты.ИсходныйЛимит</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТекущиеЛимитыИсходныйЛимитКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="ТекущиеЛимитыИсходныйЛимитРасширеннаяПодсказка" id="47"/>
+				</InputField>
+				<InputField name="ТекущиеЛимитыЛимит" id="26">
+					<DataPath>Объект.ТекущиеЛимиты.Лимит</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новый лимит</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТекущиеЛимитыЛимитКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТекущиеЛимитыЛимитРасширеннаяПодсказка" id="28"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РедактированиеЛимита</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПрименитьИзменения" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить изменения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить изменения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПрименитьИзменения</Action>
+		</Command>
+		<Command name="Перезаполнить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезаполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезаполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Перезаполнить</Action>
+		</Command>
+	</Commands>
+</Form>

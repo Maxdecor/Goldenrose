@@ -1,0 +1,3 @@
+﻿<Items Description="ОбщийКлассификаторБизнесРегион" Columns="Code,CodeSymbol,Name,Description,RBCLoading,NumerationItemOptions">
+	<Item Code="Узбекистан" CodeSymbol="" Name="" Description="" RBCLoading="ложь"/>
+	</Items>
